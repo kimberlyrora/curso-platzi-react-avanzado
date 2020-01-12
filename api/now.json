@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "name": "petgram-server",
-  "alias": ["petgram-api"],
+  "name": "petgram-server-kimislearning",
+  "alias": ["petgram-api-kimislearning"],
   "builds": [{ "src": "index.js", "use": "@now/node" }],
   "routes": [{
     "headers": {
@@ -12,3 +12,4 @@
     "src": "/.*", "dest": "index.js" }
   ]
 }
+
