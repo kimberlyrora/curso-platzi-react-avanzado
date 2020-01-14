@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Category } from '../Category'
 
 import { List, Item } from './styles'
@@ -9,7 +9,7 @@ function useCategoriesData () {
 
   useEffect(function () {
     setLoading(true)
-    window.fetch('https://petgram-server.midudev.now.sh/categories')
+    window.fetch('https://petgram-server-kimislearning.now.sh/categories')
       .then(res => res.json())
       .then(response => {
         setCategories(response)
@@ -46,10 +46,10 @@ const ListOfCategoriesComponent = () => {
   )
 
   return (
-    <Fragment>
+    <>
       {renderList()}
       {showFixed && renderList(true)}
-    </Fragment>
+    </>
   )
 }
 

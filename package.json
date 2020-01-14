@@ -8,20 +8,20 @@
     "build": "webpack",
     "lint": "standard",
     "dev": "webpack-dev-server --history-api-fallback",
-    "serve:dev": "webpack --mode 'development' && npx serve dist -s",
+    "serve:dev": "webpack --mode \"development\" && npx serve dist -s",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
+    "url": "git+https://github.com/kimberlyrora/curso-platzi-react-avanzado.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+    "url": "https://github.com/kimberlyrora/curso-platzi-react-avanzado/issues"
   },
-  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
+  "homepage": "https://github.com/kimberlyrora/curso-platzi-react-avanzado#readme",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
@@ -60,5 +60,6 @@
     "extends": [
       "./node_modules/standard/eslintrc.json"
     ]
-  }
+  },
+  "engines": { "node": "12.x" }
 }

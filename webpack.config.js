@@ -36,7 +36,7 @@ module.exports = {
           }
         },
         {
-          urlPattern: new RegExp('https://petgram-server.midudev.now.sh'),
+          urlPattern: new RegExp('https://petgram-server-kimislearning.now.sh'),
           handler: 'NetworkFirst',
           options: {
             cacheName: 'api'
